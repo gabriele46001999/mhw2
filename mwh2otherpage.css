@@ -213,7 +213,7 @@ header h1{
 }
 @media(max-width:500px){
 	.item-preferiti .title{
-	   width:200px; 
+	   width:200px;
 	   height:60px;
 	}
 }
@@ -283,24 +283,24 @@ header h1{
 
 
 
-.searchbox-item{
+#searchbox-item{
   display: flex;
 }
 
 @media(max-width:500px){
-.searchbox-item{
+#searchbox-item{
     height: 100px;
   }
 }
 
-.search-txt{
+#searchbox-item input{
   margin-top: 20px;
   margin-bottom: 20px;
   height: 60px;
   width: 200px;
 }
 
-.search-btn{
+#searchbox-item img{
   margin-top: 20px;
   margin-bottom: 20px;
   margin-right: 20px;

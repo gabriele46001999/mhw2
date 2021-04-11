@@ -157,5 +157,5 @@ for(const button of preferbuttons){
   button.addEventListener('click',showpreferiti);
 }
 
-const searchbox=document.querySelector(".search-txt");
+const searchbox=document.querySelector("#searchbox-item input");
 searchbox.addEventListener('keyup',showsearch);
